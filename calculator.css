@@ -1,0 +1,38 @@
+.lead {
+  font-size: 19px;
+}
+
+.input-tiny {
+  width: 40px;
+}
+
+.chart {
+  height: 200px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar.over-representation  rect { fill: #6060c0; }
+.bar.exact-representation rect { fill: #50b050; }
+.bar.under-representation rect { fill: #e0c040; }
+.bar.no-representation    rect { fill: #b05050; }
+
+.over-representation  { color: #6060c0; }
+.exact-representation { color: #50b050; }
+.under-representation { color: #e0c040; }
+.no-representation    { color: #b05050; }
+
+.bar text {
+  font-size: 11px;
+  fill: #666;
+  text-anchor: middle;
+}
+
+.probability {
+  font-weight: bold;
+}
